@@ -1,26 +1,26 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# 必须改用 kramdown，GitHub Pages 不再支持 redcarpet
+markdown:         kramdown
+# 必须改用 rouge，GitHub Pages 不再支持 pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+# 必须改为 false，解决你日志里的那个 Warning
+relative_permalinks: false
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url: https://zhihangxu.github.io
-baseurl: /blog
+title:            Zhihang's Blog
+tagline:          'Postdoc at University of Houston'
+description:      'Research and Thoughts'
+url:              "https://zhihangxu.github.io"
+baseurl:          "/blog"
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Zhihang Xu'
+  url:            https://zhihangxu.github.io
 
 paginate:         5
 
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+# 让 GitHub 知道不要加载默认主题
+theme: null
