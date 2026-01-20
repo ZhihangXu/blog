@@ -13,8 +13,8 @@ relative_permalinks: false
 title:            Zhihang's Blog
 tagline:          'Postdoc at University of Houston'
 description:      'Research and Thoughts'
-url:              "https://zhihangxu.github.io"
-baseurl:          "/blog"
+url: "https://zhihangxu.github.io"
+baseurl: "/blog"
 
 author:
   name:           'Zhihang Xu'
